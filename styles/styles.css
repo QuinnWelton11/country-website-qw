@@ -369,6 +369,31 @@ footer p {
 
 }
 
+.activities img {
+
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    align-content: center;
+
+}
+
+.activities a {
+
+    text-decoration: none;
+    color: #ffbd6c;
+
+}
+
+.activities a:hover,
+.activities a:focus,
+.activities a:active {
+
+    color: #d39c58;
+
+}
+
 
 
 
