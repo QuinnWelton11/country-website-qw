@@ -355,7 +355,19 @@ footer p {
 }
 
 
+/* index style end */
 
+/* destination style start */
+
+.destinations img {
+
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    align-content: center;
+
+}
 
 
 
