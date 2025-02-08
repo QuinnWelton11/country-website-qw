@@ -404,7 +404,80 @@ footer p {
 
 }
 
+.credits img {
 
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    align-content: center;
+
+}
+
+.credit-table {
+
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+table {
+
+    max-width: 90%;
+    margin: 1rem auto;
+    border-collapse: collapse;
+    background-color: #4E96A4;
+    color: #fff4e6;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem #00000033;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+caption {
+
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ffbd6c;
+    margin: 0 auto;
+
+}
+
+th,
+td {
+
+    padding: .5rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+th {
+
+    background-color: #007A9F;
+    color: #ffbd6c;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+
+}
+
+td a {
+
+    color: #ffbd6c;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+i {
+
+    padding: .5rem;
+
+}
 
 
 
