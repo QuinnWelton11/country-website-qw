@@ -6,9 +6,29 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <title>Country Website</title>
+
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+
+
 
 </head>
 
@@ -18,79 +38,152 @@
 
         <header>
 
-            <section class="site-nav">
+            <section class="nav-bar">
 
-                <nav>
+                <a class="nav-logo" href=""><img src="images/qw-logo-final.png" alt=""></a>
 
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="cities.html" target="_blank" rel="noreferrer">Cities</a></li>
-                        <li><a href="activities.html" target="_blank" rel="noreferrer">Activities</a></li>
-                        <li><a href="cuisine.html" target="_blank" rel="noreferrer">Cuisine</a></li>
-                        <li><a href="credits.html" target="_blank" rel="noreferrer">Credits</a></li>
-                    </ul>
+                <ul class="nav-menu">
 
-                </nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Destinations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Activities</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Cuisine</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Credits</a>
+                    </li>
+
+                </ul>
+
+                <div class="hamburger">
+
+                    <span class="patty"></span>
+                    <span class="patty"></span>
+                    <span class="patty"></span>
+
+                </div>
 
             </section>
 
         </header>
 
+        <section class="hero-img">
 
-        <main>
+            <img src="images/banner-5-tinted-webp.webp" alt="">
 
-            <section class="site-banner">
-
-                <div class="banner-text">
-
-                    <h1>lorem ipsum</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, fugiat. Sunt animi reprehenderit nulla omnis adipisci.</p>
-
-                </div>
-
-                <div class="img-container">
-
-                    <div class="img-overlay"></div>
-
-                    <div class="img-slides">
-
-                        <img class="banner-one" src="images/banner-1.jpg" alt="">
-        
-                        <img class="banner-two" src="images/banner-2.jpg" alt="">
+            <div class="hero-txt">
             
-                        <img class="banner-three" src="images/banner-3.jpg" alt="">
-        
-                        <img class="banner-four" src="images/banner-4.jpg" alt="">
-        
-                        <img class="banner-five" src="images/banner-5.jpg" alt="">
+                <h1>South Africa</h1>
 
-                        <img class="banner-one-copy" src="images/banner-1-copy.jpg" alt="">
+            </div>
 
-                    </div>
+        </section>
 
-                </div>
+        <section class="quote">
 
-            </section>
+            <p><cite>"One cannot resist the lure of Africa."</cite> - Rudyard Kipling</p>
 
-            <section class="info"> 
+        </section>
 
-                <h2>Explore South Africa</h2>
+        <section class="home-info">
 
-                <p>From wide open fields and stunning vistas, to sprawling cities and rollings hills. South Africa has got it all! See the wildlife, explore the surround ocean, interact with ancient tribes and more!</p>
+            <h3>Welcome to South Africa - A land of Diversity, Adventure, and Heritage</h3>
 
-            </section>
+            <p>Nestled at the southernmost tip of Africa, South Africa is a country like no other. From the majestic peaks of Table Mountain to the thrilling safaris in Kruger National Park, this nation offers an extraordinary blend of breathtaking landscapes, rich history, and vibrant cultures. Whether you're seeking adventure, relaxation, or cultural immersion, South Africa has something for every traveler. Explore its stunning beaches, bustling cities, world-renowned wildlife, and unforgettable cuisine. Come experience the spirit of Ubuntu and see why South Africa is called "The World in One Country."</p>
 
-        </main>
+        </section>
 
+        <section class="home-videos">
+
+            <div class="video-one">
+
+                <video src="videos/man-walking-beach.webm" autoplay loop muted></video>
+
+                <h3>Explore South Africa's Stunning Beaches</h3>
+
+                <p>Discover pristine beaches where you can unwind, surf world-class waves, or embark on adventurous coastal hikes. South Africa's beaches are perfect for those seeking both tranquility and adventure in one stunning destination</p>
+
+            </div>
+
+            <div class="video-two">
+
+                <video src="videos/penguins-on-beach.webm" autoplay loop muted></video>
+
+                <h3>Meet the Wildlife!</h3>
+
+                <p>See he charming African Penguins at Boulders Beach, where these adorable birds waddle along the shore amidst stunning scenery. A true South African treasure, these unique penguins are just one example of the incredible wildlife you can encounter.</p>
+
+            </div>
+
+            <div class="video-three">
+
+                <video src="videos/traditional-dance.mp4" autoplay muted loop></video>
+
+                <h3>Experience the Rythm of South Africa</h3>
+
+                <p>Feel the energy of South Africa's cultural heritage through traditional dance. From rythmic steps to the powerful movements, this vibrant display is just one example of the countries deep-rooted traditions that continue to thrive today.</p>
+
+            </div>
+
+        </section>
+
+        <section class="contact-form">
+
+            <form>
+
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" placeholder="Your email address">
+
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input type="tel" id="phone" placeholder="Your phone number">
+                    
+                    <label for="help">How may we help you?:</label>
+                    <select name="subject" id="help">
+
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="assistance">Booking Assistance</option>
+                        <option value="info">Destination Information</option>
+                        <option value="activites">Activities & Tours</option>
+                        <option value="other">Other</option>
+
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Say hello!"></textarea>
+                    
+                    <label for="contact-method">How should we reach you?:</label>
+
+                    <input type="radio" id="email-contact" name="contact-method" value="email">
+                    <label for="email">Email</label>
+
+                    <input type="radio" id="phone-contact" name="contact-method" value="phone">
+                    <label for="phone-contact">Phone</label>
+
+                    <button type="submit">Send</button>
+
+            </form>
+
+        </section>
 
         <footer>
 
-            <p>copyright</p>
+                <p>© 2025 Quinn Welton</p>
 
         </footer>
         
+        <script src="https://kit.fontawesome.com/f38c77b7fc.js" crossorigin="anonymous"></script>
         <script src="scripts/scripts.js"></script>
-
+        
     </body>
 
 </div>
