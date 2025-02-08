@@ -163,11 +163,15 @@
                     
                     <label for="contact-method">How should we reach you?:</label>
 
-                    <input type="radio" id="email-contact" name="contact-method" value="email">
-                    <label for="email">Email</label>
+                    <div class="radio-group">
 
-                    <input type="radio" id="phone-contact" name="contact-method" value="phone">
-                    <label for="phone-contact">Phone</label>
+                        <label for="email">Email</label>
+                        <input type="radio" id="email-contact" name="contact-method" value="email">
+
+                        <label for="phone-contact">Phone</label>
+                        <input type="radio" id="phone-contact" name="contact-method" value="phone">
+
+                    </div>
 
                     <button type="submit">Send</button>
 
