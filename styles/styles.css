@@ -167,6 +167,12 @@ p {
 
 }
 
+.hero-img video {
+
+    width: 100%;
+
+}
+
 .hero-txt h1 {
 
     width: fit-content;
